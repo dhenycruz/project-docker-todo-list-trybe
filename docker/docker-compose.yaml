@@ -4,12 +4,12 @@ services:
   todotests:
     build: ./todo-app/tests
     environment:
-      - FRONT_HOST: frontend
+      - FRONT_HOST=todofront
   todofront:
     build: ./todo-app/front-end
     environment:
-      - REACT_APP_API_HOST: backend
+      - REACT_APP_API_HOST=todoback
     depends_on:
-      "todoback"
+      - "todoback"
   todoback:
     build: ./todo-app/back-end
