@@ -1,4 +1,4 @@
-# Projeto React Testing Library
+# Projeto Docker Todo List
 Objetivo do projeto:
 - Usar comandos dockers no CLI - Interface de linha de comando;
 - Criar um contêiner Docker para uma aplicação de front-end;
@@ -14,13 +14,13 @@ Objetivo do projeto:
   - Clone o repositório:
     ``` git clone git@github.com:dhenycruz/project-docker-todo-list-trybe.git ```
   - Entre na pasta do repositório que você acabou de clonar:
-    ``` cd project-trybetunes-trybe ```
+    ``` cd project-docker-todo-list-trybe ```
   - Instale as dependências
     ``` npm install ```
   - Para iniciar o projeto
-    - entre na pasta docker
+    -- entre na pasta docker
       ``` cd docker ```
-    - depois cria e inicia os contêineres usando o comando
+    -- depois cria e inicia os contêineres usando o comando
       ``` docker-compose up ```
   - Crie uma branch a partir da branch master caso queira fazer alterações.
 
