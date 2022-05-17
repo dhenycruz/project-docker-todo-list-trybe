@@ -18,9 +18,9 @@ Objetivo do projeto:
   - Instale as dependências
     ``` npm install ```
   - Para iniciar o projeto
-   - entre na pasta docker
+    - entre na pasta docker
       ``` cd docker ```
-    -- depois cria e inicia os contêineres usando o comando
+    - depois cria e inicia os contêineres usando o comando
       ``` docker-compose up ```
   - Crie uma branch a partir da branch master caso queira fazer alterações.
 
